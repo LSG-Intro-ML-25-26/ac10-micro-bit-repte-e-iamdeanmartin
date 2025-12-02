@@ -1,3 +1,5 @@
+let ejeX: number;
+let ejeY: number;
 // from microbit import *
 // while True:
 //     temperatura = input.temperature()
@@ -8,4 +10,6 @@ while (true) {
     led.plot(x, y)
     basic.pause(50)
     led.unplot(x, y)
+    ejeX = input.acceleration(Dimension.X)
+    ejeY = input.acceleration(Dimension.Y)
 }
