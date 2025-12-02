@@ -14,3 +14,15 @@ while True:
 
     ejeX = input.acceleration(Dimension.X)
     ejeY = input.acceleration(Dimension.Y)
+
+    if ejeX < -150 and x > 0:
+        x = x - 1
+
+    if ejeX > 150 and x < 4:
+        x = x + 1
+
+    if ejeY < -150 and y > 0:
+        y = y - 1
+
+    if ejeY > 150 and y < 4:
+        y = y + 1
