@@ -1,1 +1,1 @@
-
+from microbit import *
